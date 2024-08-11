@@ -1,6 +1,6 @@
 # Linear Regression
 
-Comparing various methods of linear regression, including its use to fit nonlinear data.
+Comparing various methods of linear regression, including its use to fit nonlinear data. This is great at getting me to understand the math behind so many ML algorithms!
 
 Additionally, I have implemented those methods both from scratch (i.e. only numpy) and using other libraries such as scikit-learn.
 
