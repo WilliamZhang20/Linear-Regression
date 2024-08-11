@@ -13,9 +13,10 @@ def plot_regression_analysis():
     y_plot = []
     for i in range(100):
         y_plot.append(a_0 + a_1 * i)
+    
     plt.figure(figsize=(10,10))
-    plt.scatter(x_test,y_test,color='red',label='GT')
-    plt.plot(range(len(y_plot)),y_plot,color='black', label = 'pred')
+    plt.scatter(x_test,y_test,color='black',label='data')
+    plt.plot(range(len(y_plot)),y_plot,color='blue', label = 'predict')
 
     plt.xticks(())
     plt.yticks(())
@@ -36,4 +37,4 @@ def plot_from_sklearn():
     plt.show()
 
 if __name__ == '__main__':
-    plot_from_sklearn()
+    plot_regression_analysis()
